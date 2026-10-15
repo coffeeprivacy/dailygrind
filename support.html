@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Grind Support</title>
+<meta name="description" content="Help with the Daily Grind app.">
+<style>
+  :root { --bg: #F6EBDD; --fg: #2E170A; --muted: #6E5544; --accent: #6B3A1E; --card: #FFF9F2; --line: #E3D2BF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1C0F07; --fg: #F6EBDD; --muted: #C9B29E; --accent: #D9A877; --card: #2A170B; --line: #3D2414; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  .brand { color: var(--accent); font-weight: 800; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 8px 0 16px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; }
+  details { border-bottom: 1px solid var(--line); padding: 12px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <span class="brand">Daily Grind</span>
+  <h1>Support</h1>
+
+  <div class="card">
+    <strong>Get in touch</strong>
+    <p>In the app, open <strong>Today → ⚙︎ Settings → Contact support</strong>, write your message and add your email if you'd like a reply. We aim to reply within 2 working days.</p>
+    <p class="muted" style="margin-bottom:0">To report a post or a person, tap <strong>•••</strong> on the post, or next to their name in Friends → People. Reports are reviewed within 24 hours.</p>
+  </div>
+
+  <h2>Common questions</h2>
+  <details><summary>How is my daily limit worked out?</summary>
+    <p>400 mg for adults (NHS, FDA, European Food Safety Authority), 200 mg if pregnant or breastfeeding (NHS, EFSA), and 2.5 mg per kg of body weight for under-18s (Health Canada). You can change it in Settings. It's general guidance, not medical advice.</p></details>
+  <details><summary>Why isn't my sleep showing?</summary>
+    <p>Daily Grind reads sleep from Apple Health. Check Settings → Health → Data Access & Devices → Daily Grind and allow Sleep. Garmin, COROS, Oura and other trackers need sleep sharing turned on in their own app first. New nights appear the next morning.</p></details>
+  <details><summary>Why didn't my photo earn a passport stamp?</summary>
+    <p>Stamps need a photo taken with the camera in Daily Grind, showing a drink, that you haven't used before, and the drink must keep you within your daily limit. You get one stamp per different drink.</p></details>
+  <details><summary>How do I add a friend?</summary>
+    <p>Open Friends, set your name and tap Invite a friend. When they open your link they see your shared drinks; send theirs back so you see each other's. Both of you need to be signed in to iCloud.</p></details>
+  <details><summary>How do I block someone?</summary>
+    <p>Tap ••• on one of their posts or next to their name and choose Block. You stop seeing each other's drinks straight away. You can unblock people in Settings.</p></details>
+  <details><summary>How do I delete my data?</summary>
+    <p>Settings → Delete all my data removes everything on your phone and everything you've shared in iCloud.</p></details>
+
+  <p class="muted" style="margin-top:32px"><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
