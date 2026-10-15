@@ -40,8 +40,9 @@
   <strong>The short version</strong>
   <ul>
     <li>Your drinks, photos, stamps and settings stay on your iPhone.</li>
-    <li>Friends uses your own iCloud account. Only friends you accept see the drinks you share.</li>
-    <li>If you use Friends, your username, name, profile photo and bio can be found by other Daily Grind users.</li>
+    <li>Your account is private unless you make it public. Private: only followers you approve see the drinks you share.</li>
+    <li>If you use Friends, your username, name, profile photo, bio and follower counts can be seen by other Daily Grind users.</li>
+    <li>Your sleep, streaks, caffeine totals and passport are never shared, whatever your settings.</li>
     <li>Your Apple Health sleep data never leaves your phone.</li>
     <li>The developer only receives what you choose to send: a support message, an email, or a report about a post.</li>
     <li>No ads, no tracking, no analytics, and nothing is sold.</li>
@@ -64,16 +65,18 @@
 <p>Location is used only when you tap the pin on a drink, to suggest nearby places. Exact coordinates stay on your phone. If you share that drink with friends, they see the place's name, not your location.</p>
 
 <h2>Friends (iCloud)</h2>
-<p>Friends works through Apple's iCloud (CloudKit). The drinks you choose to share from the last 30 days (with their photo, note and place name), your reactions and your profile are stored in <em>your own</em> iCloud account and shared only with friends you've accepted. We have no access to this data. Any drink can be kept private with its "Show to friends" switch, and shared drinks are removed after 30 days.</p>
-<p><strong>Your public profile.</strong> To use Friends you pick a username. Your username, name, profile photo (if you add one) and bio (if you write one) are stored in the app's public iCloud database so other Daily Grind users can find you. Anyone using the app can see them; your drinks are not part of it.</p>
-<p><strong>Friend requests.</strong> When you send or answer a request, a small record with both people's app IDs, usernames and names, and a private link that only the other person can open, is stored in the same public database. It's deleted once the request has been dealt with.</p>
+<p>Friends works through Apple's iCloud (CloudKit). The drinks you choose to share from the last 30 days (with their photo, note and place name), your reactions and your profile are stored in <em>your own</em> iCloud account and shared only with your followers. With a private account (the default) you approve each follower; with a public account anyone can follow you. We have no access to this data. Any drink can be kept private with its "Show to friends" switch, and shared drinks are removed after 30 days.</p>
+<p><strong>Your public profile.</strong> To use Friends you pick a username. Your username, name, profile photo (if you add one), bio (if you write one), whether your account is private, and your follower and following counts are stored in the app's public iCloud database so other Daily Grind users can find you. If your account is public, the link that lets people follow you is stored there too.</p>
+<p><strong>Posts for everyone.</strong> If your account is public and you set a drink to "Everyone", a copy of that drink (name, caffeine, time, photo, note and place name) is stored in the public database and shown on your profile to anyone using the app, for 30 days. Making your account private removes these copies.</p>
+<p><strong>Follow requests.</strong> When you send or answer a request, a small record with both people's app IDs, usernames and names, and a private link that only the other person can open, is stored in the same public database. It's deleted once the request has been dealt with.</p>
 
 <h2>What the developer receives</h2>
 <table>
   <thead><tr><th>What</th><th>When</th><th>Why</th></tr></thead>
   <tbody>
     <tr><td>Your public profile</td><td>You create a Friends profile: username, name, photo and bio, with your app ID.</td><td>So friends can find you. We can see it in the app's iCloud database, as anyone using the app can.</td></tr>
-    <tr><td>Friend requests</td><td>You send or answer one, until it's dealt with.</td><td>To connect you with friends.</td></tr>
+    <tr><td>Follow requests</td><td>You send or answer one, until it's dealt with.</td><td>To connect you with people you follow.</td></tr>
+    <tr><td>Posts for everyone</td><td>Your account is public and you set a drink to Everyone.</td><td>To show it on your profile. Anyone using the app can see these.</td></tr>
     <tr><td>Support messages</td><td>You send one from Settings → Contact support. It includes your message, the app and iOS version, and an email address only if you choose to add one.</td><td>To answer you and fix problems.</td></tr>
     <tr><td>Reports</td><td>You report a post or a person. The report includes the reason, the reported person's app ID and name, and the reported post's details.</td><td>To review content and remove people who break the rules.</td></tr>
   </tbody>
